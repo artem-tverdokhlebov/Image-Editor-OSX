@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231088911D7373060072964E /* ATVIntegerValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 231088901D7373060072964E /* ATVIntegerValueTransformer.m */; };
+		2325C0281D6B28A4002E0C47 /* ATVInspectorPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2325C0261D6B28A4002E0C47 /* ATVInspectorPanelController.m */; };
+		2325C0291D6B28A4002E0C47 /* ATVInspectorPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2325C0271D6B28A4002E0C47 /* ATVInspectorPanel.xib */; };
+		23B3B2281D751823007A9E10 /* ATVCanvasPrimitiveElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B3B2271D751823007A9E10 /* ATVCanvasPrimitiveElement.m */; };
+		23D820481D676CDC000B901D /* ATVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D820471D676CDC000B901D /* ATVAppDelegate.m */; };
+		23D8204B1D676CDC000B901D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8204A1D676CDC000B901D /* main.m */; };
+		23D8204E1D676CDC000B901D /* ATVDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8204D1D676CDC000B901D /* ATVDocument.m */; };
+		23D820511D676CDC000B901D /* ATVDocumentWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D8204F1D676CDC000B901D /* ATVDocumentWindow.xib */; };
+		23D820531D676CDC000B901D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D820521D676CDC000B901D /* Assets.xcassets */; };
+		23D820561D676CDC000B901D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D820541D676CDC000B901D /* MainMenu.xib */; };
+		23D8205F1D676EDC000B901D /* ATVCanvasElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8205E1D676EDC000B901D /* ATVCanvasElement.m */; };
+		23D820631D67733B000B901D /* ATVInstrumentsPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D820611D67733B000B901D /* ATVInstrumentsPanelController.m */; };
+		23D820641D67733B000B901D /* ATVInstrumentsPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D820621D67733B000B901D /* ATVInstrumentsPanel.xib */; };
+		23D820681D687286000B901D /* ATVCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D820671D687286000B901D /* ATVCanvasView.m */; };
+		23D8206C1D687391000B901D /* ATVCanvasImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8206B1D687391000B901D /* ATVCanvasImageElement.m */; };
+		23D820701D68789D000B901D /* ATVImagesLibraryPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8206E1D68789D000B901D /* ATVImagesLibraryPanelController.m */; };
+		23D820711D68789D000B901D /* ATVImagesLibraryPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D8206F1D68789D000B901D /* ATVImagesLibraryPanel.xib */; };
+		23D820731D687C56000B901D /* Standard Images in Resources */ = {isa = PBXBuildFile; fileRef = 23D820721D687C56000B901D /* Standard Images */; };
+		23D8207B1D688F5F000B901D /* ATVDocumentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8207A1D688F5F000B901D /* ATVDocumentWindowController.m */; };
+		23D8207E1D689551000B901D /* ATVCanvasModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D8207D1D689551000B901D /* ATVCanvasModelController.m */; };
+		23DA2F361D6D9F50005DFAA7 /* ATVCanvasShapeElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DA2F351D6D9F50005DFAA7 /* ATVCanvasShapeElement.m */; };
+		23DA2F391D6DF414005DFAA7 /* ATVCanvasLineElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DA2F381D6DF414005DFAA7 /* ATVCanvasLineElement.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2310888F1D7373060072964E /* ATVIntegerValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVIntegerValueTransformer.h; sourceTree = "<group>"; };
+		231088901D7373060072964E /* ATVIntegerValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVIntegerValueTransformer.m; sourceTree = "<group>"; };
+		2325C0251D6B28A4002E0C47 /* ATVInspectorPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVInspectorPanelController.h; sourceTree = "<group>"; };
+		2325C0261D6B28A4002E0C47 /* ATVInspectorPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVInspectorPanelController.m; sourceTree = "<group>"; };
+		2325C0271D6B28A4002E0C47 /* ATVInspectorPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATVInspectorPanel.xib; sourceTree = "<group>"; };
+		23B3B2261D751823007A9E10 /* ATVCanvasPrimitiveElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVCanvasPrimitiveElement.h; sourceTree = "<group>"; };
+		23B3B2271D751823007A9E10 /* ATVCanvasPrimitiveElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVCanvasPrimitiveElement.m; sourceTree = "<group>"; };
+		23D820431D676CDC000B901D /* Image Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D820461D676CDC000B901D /* ATVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATVAppDelegate.h; sourceTree = "<group>"; };
+		23D820471D676CDC000B901D /* ATVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATVAppDelegate.m; sourceTree = "<group>"; };
+		23D8204A1D676CDC000B901D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23D8204C1D676CDC000B901D /* ATVDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATVDocument.h; sourceTree = "<group>"; };
+		23D8204D1D676CDC000B901D /* ATVDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATVDocument.m; sourceTree = "<group>"; };
+		23D820501D676CDC000B901D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ATVDocumentWindow.xib; sourceTree = "<group>"; };
+		23D820521D676CDC000B901D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23D820551D676CDC000B901D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		23D820571D676CDC000B901D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D8205D1D676EDC000B901D /* ATVCanvasElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVCanvasElement.h; sourceTree = "<group>"; };
+		23D8205E1D676EDC000B901D /* ATVCanvasElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVCanvasElement.m; sourceTree = "<group>"; };
+		23D820601D67733B000B901D /* ATVInstrumentsPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVInstrumentsPanelController.h; sourceTree = "<group>"; };
+		23D820611D67733B000B901D /* ATVInstrumentsPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVInstrumentsPanelController.m; sourceTree = "<group>"; };
+		23D820621D67733B000B901D /* ATVInstrumentsPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATVInstrumentsPanel.xib; sourceTree = "<group>"; };
+		23D820661D687286000B901D /* ATVCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVCanvasView.h; sourceTree = "<group>"; };
+		23D820671D687286000B901D /* ATVCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVCanvasView.m; sourceTree = "<group>"; };
+		23D8206A1D687391000B901D /* ATVCanvasImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVCanvasImageElement.h; sourceTree = "<group>"; };
+		23D8206B1D687391000B901D /* ATVCanvasImageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVCanvasImageElement.m; sourceTree = "<group>"; };
+		23D8206D1D68789D000B901D /* ATVImagesLibraryPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVImagesLibraryPanelController.h; sourceTree = "<group>"; };
+		23D8206E1D68789D000B901D /* ATVImagesLibraryPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVImagesLibraryPanelController.m; sourceTree = "<group>"; };
+		23D8206F1D68789D000B901D /* ATVImagesLibraryPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATVImagesLibraryPanel.xib; sourceTree = "<group>"; };
+		23D820721D687C56000B901D /* Standard Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Standard Images"; path = "../Standard Images"; sourceTree = "<group>"; };
+		23D820791D688F5F000B901D /* ATVDocumentWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVDocumentWindowController.h; sourceTree = "<group>"; };
+		23D8207A1D688F5F000B901D /* ATVDocumentWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVDocumentWindowController.m; sourceTree = "<group>"; };
+		23D8207C1D689551000B901D /* ATVCanvasModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVCanvasModelController.h; sourceTree = "<group>"; };
+		23D8207D1D689551000B901D /* ATVCanvasModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVCanvasModelController.m; sourceTree = "<group>"; };
+		23DA2F341D6D9F50005DFAA7 /* ATVCanvasShapeElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVCanvasShapeElement.h; sourceTree = "<group>"; };
+		23DA2F351D6D9F50005DFAA7 /* ATVCanvasShapeElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVCanvasShapeElement.m; sourceTree = "<group>"; };
+		23DA2F371D6DF414005DFAA7 /* ATVCanvasLineElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVCanvasLineElement.h; sourceTree = "<group>"; };
+		23DA2F381D6DF414005DFAA7 /* ATVCanvasLineElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVCanvasLineElement.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D820401D676CDC000B901D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23D8203A1D676CDC000B901D = {
+			isa = PBXGroup;
+			children = (
+				23D820451D676CDC000B901D /* Image Editor */,
+				23D820491D676CDC000B901D /* Supporting Files */,
+				23D820441D676CDC000B901D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23D820441D676CDC000B901D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23D820431D676CDC000B901D /* Image Editor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23D820451D676CDC000B901D /* Image Editor */ = {
+			isa = PBXGroup;
+			children = (
+				23D820461D676CDC000B901D /* ATVAppDelegate.h */,
+				23D820471D676CDC000B901D /* ATVAppDelegate.m */,
+				23D8204C1D676CDC000B901D /* ATVDocument.h */,
+				23D8204D1D676CDC000B901D /* ATVDocument.m */,
+				23D8204F1D676CDC000B901D /* ATVDocumentWindow.xib */,
+				23D820791D688F5F000B901D /* ATVDocumentWindowController.h */,
+				23D8207A1D688F5F000B901D /* ATVDocumentWindowController.m */,
+				23D820521D676CDC000B901D /* Assets.xcassets */,
+				23D820541D676CDC000B901D /* MainMenu.xib */,
+				23D820571D676CDC000B901D /* Info.plist */,
+				23D820651D68726B000B901D /* Panels */,
+				23D820691D687373000B901D /* Canvas */,
+				23D820721D687C56000B901D /* Standard Images */,
+			);
+			path = "Image Editor";
+			sourceTree = "<group>";
+		};
+		23D820491D676CDC000B901D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23D8204A1D676CDC000B901D /* main.m */,
+			);
+			name = "Supporting Files";
+			path = "Image Editor";
+			sourceTree = "<group>";
+		};
+		23D820651D68726B000B901D /* Panels */ = {
+			isa = PBXGroup;
+			children = (
+				23D820601D67733B000B901D /* ATVInstrumentsPanelController.h */,
+				23D820611D67733B000B901D /* ATVInstrumentsPanelController.m */,
+				23D820621D67733B000B901D /* ATVInstrumentsPanel.xib */,
+				23D8206D1D68789D000B901D /* ATVImagesLibraryPanelController.h */,
+				23D8206E1D68789D000B901D /* ATVImagesLibraryPanelController.m */,
+				23D8206F1D68789D000B901D /* ATVImagesLibraryPanel.xib */,
+				2325C0251D6B28A4002E0C47 /* ATVInspectorPanelController.h */,
+				2325C0261D6B28A4002E0C47 /* ATVInspectorPanelController.m */,
+				2325C0271D6B28A4002E0C47 /* ATVInspectorPanel.xib */,
+				2310888F1D7373060072964E /* ATVIntegerValueTransformer.h */,
+				231088901D7373060072964E /* ATVIntegerValueTransformer.m */,
+			);
+			name = Panels;
+			sourceTree = "<group>";
+		};
+		23D820691D687373000B901D /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				23D8207C1D689551000B901D /* ATVCanvasModelController.h */,
+				23D8207D1D689551000B901D /* ATVCanvasModelController.m */,
+				23D820661D687286000B901D /* ATVCanvasView.h */,
+				23D820671D687286000B901D /* ATVCanvasView.m */,
+				23D8207F1D6897C2000B901D /* Model */,
+			);
+			name = Canvas;
+			sourceTree = "<group>";
+		};
+		23D8207F1D6897C2000B901D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23D8205D1D676EDC000B901D /* ATVCanvasElement.h */,
+				23D8205E1D676EDC000B901D /* ATVCanvasElement.m */,
+				23D8206A1D687391000B901D /* ATVCanvasImageElement.h */,
+				23D8206B1D687391000B901D /* ATVCanvasImageElement.m */,
+				23B3B2261D751823007A9E10 /* ATVCanvasPrimitiveElement.h */,
+				23B3B2271D751823007A9E10 /* ATVCanvasPrimitiveElement.m */,
+				23DA2F341D6D9F50005DFAA7 /* ATVCanvasShapeElement.h */,
+				23DA2F351D6D9F50005DFAA7 /* ATVCanvasShapeElement.m */,
+				23DA2F371D6DF414005DFAA7 /* ATVCanvasLineElement.h */,
+				23DA2F381D6DF414005DFAA7 /* ATVCanvasLineElement.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D820421D676CDC000B901D /* Image Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D8205A1D676CDC000B901D /* Build configuration list for PBXNativeTarget "Image Editor" */;
+			buildPhases = (
+				23D8203F1D676CDC000B901D /* Sources */,
+				23D820401D676CDC000B901D /* Frameworks */,
+				23D820411D676CDC000B901D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image Editor";
+			productName = "Image Editor";
+			productReference = 23D820431D676CDC000B901D /* Image Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23D8203B1D676CDC000B901D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ATV;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Артём Твердохлебов";
+				TargetAttributes = {
+					23D820421D676CDC000B901D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 23D8203E1D676CDC000B901D /* Build configuration list for PBXProject "Image Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23D8203A1D676CDC000B901D;
+			productRefGroup = 23D820441D676CDC000B901D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23D820421D676CDC000B901D /* Image Editor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23D820411D676CDC000B901D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D820531D676CDC000B901D /* Assets.xcassets in Resources */,
+				23D820711D68789D000B901D /* ATVImagesLibraryPanel.xib in Resources */,
+				23D820731D687C56000B901D /* Standard Images in Resources */,
+				23D820511D676CDC000B901D /* ATVDocumentWindow.xib in Resources */,
+				23D820561D676CDC000B901D /* MainMenu.xib in Resources */,
+				2325C0291D6B28A4002E0C47 /* ATVInspectorPanel.xib in Resources */,
+				23D820641D67733B000B901D /* ATVInstrumentsPanel.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D8203F1D676CDC000B901D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D8204E1D676CDC000B901D /* ATVDocument.m in Sources */,
+				23D820681D687286000B901D /* ATVCanvasView.m in Sources */,
+				23D820701D68789D000B901D /* ATVImagesLibraryPanelController.m in Sources */,
+				2325C0281D6B28A4002E0C47 /* ATVInspectorPanelController.m in Sources */,
+				23D8204B1D676CDC000B901D /* main.m in Sources */,
+				23D8205F1D676EDC000B901D /* ATVCanvasElement.m in Sources */,
+				231088911D7373060072964E /* ATVIntegerValueTransformer.m in Sources */,
+				23D8207B1D688F5F000B901D /* ATVDocumentWindowController.m in Sources */,
+				23D820631D67733B000B901D /* ATVInstrumentsPanelController.m in Sources */,
+				23D8207E1D689551000B901D /* ATVCanvasModelController.m in Sources */,
+				23D820481D676CDC000B901D /* ATVAppDelegate.m in Sources */,
+				23DA2F361D6D9F50005DFAA7 /* ATVCanvasShapeElement.m in Sources */,
+				23DA2F391D6DF414005DFAA7 /* ATVCanvasLineElement.m in Sources */,
+				23B3B2281D751823007A9E10 /* ATVCanvasPrimitiveElement.m in Sources */,
+				23D8206C1D687391000B901D /* ATVCanvasImageElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23D8204F1D676CDC000B901D /* ATVDocumentWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D820501D676CDC000B901D /* Base */,
+			);
+			name = ATVDocumentWindow.xib;
+			sourceTree = "<group>";
+		};
+		23D820541D676CDC000B901D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D820551D676CDC000B901D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23D820581D676CDC000B901D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23D820591D676CDC000B901D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23D8205B1D676CDC000B901D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Image Editor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atverd.image-editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23D8205C1D676CDC000B901D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Image Editor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.atverd.image-editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23D8203E1D676CDC000B901D /* Build configuration list for PBXProject "Image Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D820581D676CDC000B901D /* Debug */,
+				23D820591D676CDC000B901D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D8205A1D676CDC000B901D /* Build configuration list for PBXNativeTarget "Image Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D8205B1D676CDC000B901D /* Debug */,
+				23D8205C1D676CDC000B901D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23D8203B1D676CDC000B901D /* Project object */;
+}
